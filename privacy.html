@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy – Pi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+      /* visionOS-style ambient background */
+      background:
+        radial-gradient(
+          60% 60% at 50% 0%,
+          rgba(255, 255, 255, 0.12),
+          rgba(0, 0, 0, 0.9)
+        ),
+        #000;
+    }
+
+    .glass-card {
+      width: min(720px, 92%);
+      padding: 56px 48px;
+      border-radius: 28px;
+
+      /* Frosted glass */
+      background: rgba(255, 255, 255, 0.14);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+
+      border: 1px solid rgba(255, 255, 255, 0.22);
+
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 28px;
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+    }
+
+    p {
+      margin: 0 0 18px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.55);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="glass-card">
+    <h1>Privacy Policy</h1>
+
+    <p>Pi does not collect, store, or transmit any personal data.</p>
+    <p>All functionality runs locally in the user’s browser.</p>
+    <p>No analytics, tracking, or third-party scripts are used.</p>
+
+    <div class="footer">
+      Last updated · January 2026
+    </div>
+  </div>
+</body>
+</html>
